@@ -1,0 +1,147 @@
+@media(min-width: 35em){
+
+    header .top-header .logo img{
+        height: 50px;
+    }
+
+    header .top-header .languages img{
+        width: 25px;
+    }
+
+    header .top-header .menu .hamburger{
+        width: 45px;
+        height: 45px;
+        padding: 5px;
+        margin: 7px 5px 5px 5px;
+    }
+
+    .top-header .menu .hamburger .lines{
+        width: 2.2rem;
+    }
+
+    .top-header .menu .hamburger .rotateUp{
+        transform: rotate(45deg);
+        margin-top: 13px;
+        top: 12px;
+    }
+    .top-header .menu .hamburger .rotateDown{
+        transform: rotate(-45deg);
+        margin-top: -13px;
+        margin-bottom: 12px;
+    }
+
+    nav ul li a{
+        font-size: .95rem;
+    }
+    
+    ul li a img{
+        width: 25px;
+    }
+    
+    h1{
+        font-size: 2.4rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    header .click .point-down span{
+        font-size: 1.7rem;
+    }
+
+    .container .spinners{
+        position: absolute;
+        left: 47%;
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+
+    main .sneak-peak{
+        display: flex;
+    }
+
+    main .sneak-peak .pre-one{
+        margin-right: 1.3rem;
+    }
+
+    main .sneak-peak .pre-two{
+        margin-left: 1.3rem;
+    }
+
+    main .sneak-peak .pre-content img{
+        width: 100px;
+    }
+
+    main .sneak-peak .pre-content p{
+        font-size: 1.1rem;
+    }
+
+    main .sneak-peak .pre-content:nth-child(1) p{
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    main .content{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 64em;
+    }
+
+    main .content .content-picture{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 10px;
+    }
+
+
+    main .content .content-picture figure{
+        width: 180px;
+    }
+
+    main .content .content-text{
+        width: 100%;
+    }
+
+    main .content .content-text p{
+        font-size: 1.1rem;
+    }
+
+    main .content-projects .grid{
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+
+    .latest-works .slider figure{
+        width: 250px;
+    }
+
+    .slider figure .carrousel-images .recent-project-images-overlay{
+        height: 96.5%;
+    }
+
+    .grid figure .project-images-overlay h3{
+        font-size: 1.5rem;
+    }
+
+    .grid figure .project-images-overlay h4{
+        font-size: 1.2rem;
+    }
+
+    .top-footer .left-footer .nav-links a{
+        font-size: 1.1rem;
+    }
+
+    .left-footer .social a img{
+        width: 30px;
+    }
+
+    footer .top-footer{
+        max-width: 64em;
+    }
+
+    footer .bottom-footer p{
+        font-size: .95rem;
+    }
+}

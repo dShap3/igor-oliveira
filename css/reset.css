@@ -1,0 +1,57 @@
+/* RESET */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body, *, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: rgb(48, 48, 48);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Audiowide', cursive;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: rgb(214, 214, 214);
+    text-shadow: 5px 1px 5px rgb(48, 48, 48),
+                -5px -1px 5px rgb(48, 48, 48);
+    opacity: 0;
+    margin-left: 10px;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+}
+.show-heading-1{
+    opacity: 1;
+    margin-left: 0;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+ul{
+    list-style: none;
+}
+
+span{
+    margin: 0;
+    padding: 0;
+}
+
+/* 480px, 768px, 1024px, 1280px
+   30em,  48em,  64em,   80em */
