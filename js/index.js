@@ -11,15 +11,6 @@ toggleButton.onclick = () => {
     navBar.classList.toggle("appears");
 }
 
-// CARREGAR CADA ICON COM COR DIFERENTE (CINZA).
-/* const navLink = document.querySelector("nav ul li a");
-navLink.onmouseover = () => {
-    const imageLink = document.querySelectorAll("li a img");
-    imageLink.map(icon, () => {
-        icon.src = ``;
-    });
-} */
-
 window.onload = () => {
     const loadingSpinner = document.querySelector(".loading");
     setTimeout(() => {
@@ -35,3 +26,10 @@ window.onload = () => {
         h2.classList.add("show-heading-2");
     }, 1250);
 }
+
+const spanLink = document.querySelector("header .click a");
+function scrollDown(){
+    const aboutMe = document.getElementById("about-me");
+    aboutMe.scrollIntoView({behavior: "smooth"});
+}
+spanLink.addEventListener("click", scrollDown);
