@@ -11,15 +11,6 @@ toggleButton.onclick = () => {
     navBar.classList.toggle("appears");
 }
 
-// CARREGAR CADA ICON COM COR DIFERENTE (CINZA).
-/* const navLink = document.querySelector("nav ul li a");
-navLink.onmouseover = () => {
-    const imageLink = document.querySelectorAll("li a img");
-    imageLink.map(icon, () => {
-        icon.src = ``;
-    });
-} */
-
 window.onload = () => {
     const loadingSpinner = document.querySelector(".loading");
     setTimeout(() => {
@@ -41,4 +32,8 @@ function scrollDown(){
     const aboutMe = document.getElementById("about-me");
     aboutMe.scrollIntoView({behavior: "smooth"});
 }
+<<<<<<< HEAD
 spanLink.addEventListener("click", scrollDown);
+=======
+spanLink.addEventListener("click", scrollDown);
+>>>>>>> 5a45167523faeaadc1355b740de2bb2d10e2c5ff
