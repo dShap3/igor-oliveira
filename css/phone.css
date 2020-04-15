@@ -248,6 +248,7 @@ header .click .point-down{
     text-decoration: none;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 header .click .point-down span{
