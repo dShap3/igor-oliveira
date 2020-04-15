@@ -22,6 +22,10 @@
         display: none;
     }
 
+    header .click{
+        margin-bottom: 2rem;
+    }
+
     .top-header .menu nav{
         top: 0;
         transform: translateX(-50%);
