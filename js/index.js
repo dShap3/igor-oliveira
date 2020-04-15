@@ -35,3 +35,10 @@ window.onload = () => {
         h2.classList.add("show-heading-2");
     }, 1250);
 }
+
+const spanLink = document.querySelector("header .click a");
+function scrollDown(){
+    const aboutMe = document.getElementById("about-me");
+    aboutMe.scrollIntoView({behavior: "smooth"});
+}
+spanLink.addEventListener("click", scrollDown);

@@ -1,7 +1,7 @@
 @media(min-width: 64em){
     h1{
         font-size: 2.6rem;
-        transform: translate(90%, -100%);
+        transform: translate(85%, -100%);
         margin-right: 10px;
     }
 
@@ -20,6 +20,10 @@
 
     header .top-header .menu .hamburger{
         display: none;
+    }
+
+    header .click{
+        margin-bottom: 2rem;
     }
 
     .top-header .menu nav{
@@ -50,7 +54,7 @@
     }
 
     .mid-header > h2{
-        transform: translate(90%, -100%);
+        transform: translate(85%, -100%);
         margin-right: 10px;
     }
 
