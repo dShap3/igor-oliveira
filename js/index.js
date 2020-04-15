@@ -32,8 +32,4 @@ function scrollDown(){
     const aboutMe = document.getElementById("about-me");
     aboutMe.scrollIntoView({behavior: "smooth"});
 }
-<<<<<<< HEAD
 spanLink.addEventListener("click", scrollDown);
-=======
-spanLink.addEventListener("click", scrollDown);
->>>>>>> 5a45167523faeaadc1355b740de2bb2d10e2c5ff
