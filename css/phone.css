@@ -149,12 +149,12 @@ header .top-header .menu .hamburger{
 }
 .top-header .menu .hamburger .rotateUp{
     transform: rotate(45deg);
-    margin-top: 8.3px;
+    margin-top: 8px;
     top: 12px;
 }
 .top-header .menu .hamburger .rotateDown{
     transform: rotate(-45deg);
-    margin-top: -8.3px;
+    margin-top: -8px;
     margin-bottom: 12px;
 }
 
