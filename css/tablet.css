@@ -13,6 +13,7 @@
         height: 45px;
         padding: 5px;
         margin: 7px 5px 5px 5px;
+        cursor: pointer;
     }
 
     .top-header .menu .hamburger .lines{

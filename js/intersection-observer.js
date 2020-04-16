@@ -19,28 +19,3 @@ const observer = new IntersectionObserver((entries, observer) => {
 sliders.forEach(slider => {
     observer.observe(slider);
 });
-
-
-/* // PICTURE FADE IN
-const picture = document.querySelector(".content-picture");
-const options = {
-    root: null,
-    threshold: 0.3,
-    rootMargin: "-50px"
-};
-
-const observer = new IntersectionObserver((entries, observer) => {
-    entries.map(entry => {
-        if(entry.isIntersecting){
-            entry.target.classList.add("picture-change");
-        } else {
-            entry.target.classList.remove("picture-change");
-        }
-    });
-}, options);
-    observer.observe(picture);
-//IF picture IS AN ARRAY, USE
-pictures.forEach(picture => {
-    observer.observe(picture);
-})
-*/
