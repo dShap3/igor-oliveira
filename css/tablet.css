@@ -22,13 +22,13 @@
     .top-header .menu .hamburger .rotateUp{
         transform: rotate(45deg);
         margin-top: 13px;
-        -webkit-margin-top: 10px;
+        -webkit-margin-top: 8px;
         top: 12px;
     }
     .top-header .menu .hamburger .rotateDown{
         transform: rotate(-45deg);
         margin-top: -13px;
-        -webkit-margin-top: -10px;
+        -webkit-margin-top: -8px;
         margin-bottom: 12px;
     }
 
