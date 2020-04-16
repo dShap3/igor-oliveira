@@ -2,52 +2,52 @@ const projects =
 [
     {
         company_name: "Salmon River Adventures",
-        reason: "Empresa de Rafting",
+        reason: "HTML5, CSS3 e Javascript",
         link_attribute: "https://igorcopa.github.io/salmon-river-adventures/"
     },
     {
         company_name: "Consulta Climática",
-        reason: "Especificamente em Idaho",
+        reason: "HTML5, CSS3 e Javascript",
         link_attribute: "https://igorcopa.github.io/lesson11/index.html"
     },
     {
         company_name: "Jogo da Cobra",
-        reason: "Fins Não Lucrativos",
+        reason: "HTML5 e Javascript",
         link_attribute: "https://igorcopa.github.io/snake-game/"
     },
     {
         company_name: "Lista de Tarefas",
-        reason: "Simples Lista",
+        reason: "HTML5, CSS3 e Javascript",
         link_attribute: "https://igorcopa.github.io/to-do-list/"
     },
     {
         company_name: "Calculadora",
-        reason: "Calculadora Simples",
+        reason: "HTML5, CSS3 e Javascript",
         link_attribute: "https://igorcopa.github.io/calculator/"
     },
     {
         company_name: "Profetas SUD",
-        reason: "Fins Não Lucrativos",
+        reason: "HTML5 e CSS3",
         link_attribute: "https://igorcopa.github.io/lesson9/prophets.html"
     },
     {
         company_name: "Bearded Ones",
-        reason: "Barbearia",
+        reason: "HTML5 e CSS3",
         link_attribute: "https://igorcopa.github.io/bearded-ones/"
     },
     {
         company_name: "Locked and Loaded",
-        reason: "Informações Sobre Armas",
+        reason: "HTML5 e CSS3",
         link_attribute: "https://igorcopa.github.io/locked-and-loaded/"
     },
     {
         company_name: "Worldly Paradise",
-        reason: "Viaje Pelo Mundo",
+        reason: "HTML5 e CSS3",
         link_attribute: "https://igorcopa.github.io/worldly-paradise/"
     },
     {
         company_name: "Paraísos Brasileiros",
-        reason: "Visite o Brasil",
+        reason: "HTML5 e CSS3",
         link_attribute: "https://igorcopa.github.io/paraisos-brasileiros/"
     }
 ]
