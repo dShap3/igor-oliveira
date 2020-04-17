@@ -27,14 +27,8 @@ window.onload = () => {
     }, 1250);
 }
 
-/* const spanLink = document.querySelector("header .click a");
-function scrollDown(){
-    const aboutMe = document.getElementById("about-me");
-    aboutMe.scrollIntoView({behavior: "smooth"});
-}
-spanLink.addEventListener("click", scrollDown); */
-
-$('.click .point-down').on('click', function(e) {
+/* jQuery Cross Platform Smooth Scroll */
+/* $('.click .point-down').on('click', function(e) {
     if(this.hash !== '') {
         e.preventDefault();
         const hash = this.hash;
@@ -42,4 +36,9 @@ $('.click .point-down').on('click', function(e) {
             scrollTop: $(hash).offset().top
         }, 1200);
     }
+}); */
+
+/* Vanilla JS Cross Platform Smooth Scroll */
+const scroll = new SmoothScroll('.click a[href*="#"]', {
+    speed: 1200
 });
