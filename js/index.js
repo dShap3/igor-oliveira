@@ -27,9 +27,19 @@ window.onload = () => {
     }, 1250);
 }
 
-const spanLink = document.querySelector("header .click a");
+/* const spanLink = document.querySelector("header .click a");
 function scrollDown(){
     const aboutMe = document.getElementById("about-me");
     aboutMe.scrollIntoView({behavior: "smooth"});
 }
-spanLink.addEventListener("click", scrollDown);
+spanLink.addEventListener("click", scrollDown); */
+
+$('.click .point-down').on('click', function(e) {
+    if(this.hash !== '') {
+        e.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 1200);
+    }
+});
