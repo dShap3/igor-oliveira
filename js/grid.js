@@ -3,52 +3,52 @@ const projects =
     {
         company_name: "Salmon River Adventures",
         reason: "HTML5, CSS3 & Javascript",
-        link_attribute: "https://igorcopa.github.io/salmon-river-adventures/"
+        link_attribute: "https://dshap3.github.io/salmon-river-adventures/"
     },
     {
         company_name: "Idaho State Weather",
         reason: "HTML5, CSS3 & Javascript",
-        link_attribute: "https://igorcopa.github.io/lesson11/index.html"
+        link_attribute: "https://dshap3.github.io/lesson11/index.html"
     },
     {
         company_name: "Snake Game",
         reason: "HTML5 & Javascript",
-        link_attribute: "https://igorcopa.github.io/snake-game/"
+        link_attribute: "https://dshap3.github.io/snake-game/"
     },
     {
         company_name: "To Do List",
         reason: "HTML5, CSS3 & Javascript",
-        link_attribute: "https://igorcopa.github.io/to-do-list/"
+        link_attribute: "https://dshap3.github.io/to-do-list/"
     },
     {
         company_name: "Calculator",
         reason: "HTML5, CSS3 & Javascript",
-        link_attribute: "https://igorcopa.github.io/calculator/"
+        link_attribute: "https://dshap3.github.io/calculator/"
     },
     {
         company_name: "LDS Prophets",
         reason: "HTML5 & CSS3",
-        link_attribute: "https://igorcopa.github.io/lesson9/prophets.html"
+        link_attribute: "https://dshap3.github.io/lesson9/prophets.html"
     },
     {
         company_name: "Bearded Ones",
         reason: "HTML5 & CSS3",
-        link_attribute: "https://igorcopa.github.io/bearded-ones/"
+        link_attribute: "https://dshap3.github.io/bearded-ones/"
     },
     {
         company_name: "Locked and Loaded",
         reason: "HTML5 & CSS3",
-        link_attribute: "https://igorcopa.github.io/locked-and-loaded/"
+        link_attribute: "https://dshap3.github.io/locked-and-loaded/"
     },
     {
         company_name: "Worldly Paradise",
         reason: "HTML5 & CSS3",
-        link_attribute: "https://igorcopa.github.io/worldly-paradise/"
+        link_attribute: "https://dshap3.github.io/worldly-paradise/"
     },
     {
         company_name: "Brazilian Paradise",
         reason: "HTML5 & CSS3",
-        link_attribute: "https://igorcopa.github.io/paraisos-brasileiros/"
+        link_attribute: "https://dshap3.github.io/paraisos-brasileiros/"
     }
 ]
 
